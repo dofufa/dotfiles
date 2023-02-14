@@ -96,5 +96,4 @@
   <policy domain="coder" rights="none" pattern="EPS" />
   <policy domain="coder" rights="none" pattern="XPS" />
   <policy domain="coder" rights="read | write" pattern="PDF" />
-  <policy domain="coder" rights="read | write" pattern="PNG" />  
 </policymap>
