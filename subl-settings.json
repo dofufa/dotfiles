@@ -1,4 +1,5 @@
 {
 	"font_size": 18,
+	"trim_trailing_white_space_on_save": "all",	
 	"theme": "Adaptive.sublime-theme"
 }
