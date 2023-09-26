@@ -1,0 +1,13 @@
+## updates apt installs
+upd() {
+    sudo apt update;
+    sudo apt upgrade -y;
+    sudo apt autoremove -y;
+}
+
+## rebrews alternative homebrew installs
+rebrew() {
+    eval "$(homebrew/bin/brew shellenv)"
+    brew update --force --quiet
+    chmod -R go-w "$(brew --prefix)/share/zsh"
+}
