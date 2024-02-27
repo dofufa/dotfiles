@@ -1,10 +1,6 @@
 [*]
 charset = utf-8
 
-# visual studio?
-[*.sh]
-rulers = 80, 120
-
 # 2 space indentation
 [*]
 indent_style = space
