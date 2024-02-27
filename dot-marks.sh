@@ -12,7 +12,8 @@ mk31() {
     # unzip - file unarchiver
     # python3-pip: pip module manager
     sudo apt install -y tree nano zip unzip
-#    sudo apt install python3-pip -y
+#    sudo apt install python3-pip -y ## no longer a thing after Debian 12? (PEP 668)
+    sudo apt install -y python3-pil
     sudo apt install -y python3-scipy python3-plotly
     sudo apt install -y python3-notebook
     sudo apt install -y python3-qrcode
