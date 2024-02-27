@@ -35,6 +35,6 @@ kbdate() {
   h=$(((t2-t1)/3600));
   hhh=$(printf %03d $h);
 
-  printf "KB$yy$mm$hhh";
+  echo "KB$yy$mm$hhh";
 }
 
