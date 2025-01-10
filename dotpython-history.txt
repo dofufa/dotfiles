@@ -1,0 +1,2069 @@
+import qrcode
+help(kwargs)
+import qrcode
+help(qrcode)
+help(qrcode.util)
+help(qrcode)
+help(qrcode.image)
+ls
+help(qrcode)
+    run_example(data='http://www.lincolnloop.com', *args, **kwargs)
+qrocde.run_example(data='http://www.lincolnloop.com', *args, **kwargs)
+qrcode.run_example(data='http://www.lincolnloop.com', *args, **kwargs)
+dir(qrcode)
+help(make)
+help(qrcode.make)
+help(qrcode.run_exqmple)
+help(qrcode.run_example)
+qrcode.run_example
+qrcode.run_example()
+qrcode.run_example('foo')
+ls
+from PIL import Image
+from PIL import ImageFont
+dir(ImageFont)
+from PIL import ImageFont
+help(ImageFont.load_default)
+from PIL import ImageFont
+help(ImageFont)
+(0,0)+(1,1)
+import re
+s = 'https://www.youtube.com/watch?v=Bg0wsyz0cPU'
+len(s)
+s.match(r'v=([A-Za-z0-9-_]{11})'
+s.match(r'v=([A-Za-z0-9-_]{11})')
+s.find(r'v=([A-Za-z0-9-_]{11})')
+dir(re)
+re.match(r'v=([A-Za-z0-9-_]{11})',s)
+re.match(s,r'v=([A-Za-z0-9-_]{11})')
+re.search(r'v=([A-Za-z0-9-_]{11})',s)
+re.search(r'v=([A-Za-z0-9-_]{11})',s).group(1)
+from PIL import Image
+dir(Image)
+dir(os)
+import os
+dir(os)
+dir(os.mkdir)
+color=0,255,0
+color
+str(color)
+''.join(color)
+''.join(str(color))
+str(x) for x in color
+[str(x) for x in color]
+'-'.join([str(x) for x in color]_
+'-'.join([str(x) for x in color])
+'icon'+'-'.join([str(x) for x in color])
+'iconset-'+'-'.join([str(x) for x in color])
+import os
+help(os.mkdir)
+import os
+help(os.rmdir)
+import datetime
+help(datetime)
+datetime.timestamp()
+help(datetime)
+from PIL import Image
+help(Image.save)
+dir(Image)
+dir(Image.open)
+dir(Image.save)
+dir(Image.open)
+Image.open.__class__
+Image.open.__name__
+Image.__name__
+help(PIL.Image.save)
+import PIL
+help(PIL.Image.save)
+help(PIL.Image)
+d = [255,0,255]
+str(d)
+import os
+os.sep
+os.newline
+dir(os)
+dir(os.linesep)
+import re
+dir(re)
+m
+m.group(0)
+m
+import yaml
+dir(yaml)
+yaml.load('podns.yaml')
+help(yaml.load)
+yaml.load(open('podns.yaml'))
+yaml.load(open('podns.yaml'),Loader)
+exit
+exit()
+help(argparse)
+import argparse
+help(argparse)
+import flask
+import qrcode
+qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU')
+qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU').resize(75,75)
+qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU').thumbnail(75,75)
+size = 75,75
+qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU').thumbnail(size)
+qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU').thumbnail(size).save('qr@Bg0wsyz0cPU.png')
+qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU').thumbnail(size)
+im = qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU').thumbnail(size)
+dir(im)
+im = qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU').thumbnail(size)
+open('foo.png','w').write(im)
+im = qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU')
+im
+open('foo.png','w').write(im)
+im = qrcode.make('https://www.youtube.com/watch?v=Bg0wsyz0cPU')
+im.save('foo.png')
+im.thumbnail(size)
+img.save('qr@Bg0wsyz0cPU.png')
+im.save('qr@Bg0wsyz0cPU.png')
+import yaml
+with open('foo.yaml') as f:
+  hello = yaml.safe_load(f)
+hello
+hello.entries()
+hello.items()
+hello.keys()
+exit
+import yaml
+env
+import env
+import shutils
+help()
+modules
+import os
+dir(os)
+help(os.environ)
+help(os)
+imort os
+import pos
+import os
+os.getenv('FOO')
+import argparse
+help(argparse.ArgumentParser.add_argument)
+p = str()
+p
+import subprocess
+dir(subprocess)
+dir(subprocess.run)
+dir(subprocess.call)
+[1 , 2, 3]
+[1 , 2, 3].remove(2)
+[1 , 2, 3].remove(1)
+[1,2,3]
+typeof([1,2,3])
+type([1,2,3])
+dir([1,2,3])
+f = [1,2,3].remove(0)
+f = [1,2,3]
+import subprocess
+subprocess.run('ls','-l')
+help(subprocess.run)
+subprocess.run('ls -l')
+subprocess.call('ls -l')
+help(subprocess.call)
+subprocess.run(['ls', '-l'])
+import readline
+dir(readline)
+help(readline)
+readline
+readline()
+readline(foo)
+readline(s)
+dict
+dir(dict).
+foo
+foo.get(tag)
+tag
+foo[tag]
+tag
+foo[tag]
+import cache
+help(modules)
+help()
+modules
+help(apt)
+import apt
+help(apt)
+import mxl
+import xml
+help(xml)
+ls
+help(xml)
+help(xml.etree)
+help(xml)
+help(xml.dom)
+import xpath
+import pyexpat
+help(pyexpat)
+ls
+help(switch)
+help(case)
+help()
+switch
+help()
+case
+import _xpath
+import xmltodict
+f = open('a.xml').read()
+f
+xmltodict(f)
+dir(xmltodict)
+xmltodict.parse(f)
+x = xmltodict.parse(f)
+x
+x.entries()
+dir(x)
+dir.key()
+dir.keys()
+x.keys()
+x['rss']
+x['rss']['channel']
+x['rss']['channel']['item
+x['rss']['channel']['items'
+x['rss']['channel']['items']
+x['rss']['channel']
+x['rss']['channel'][0]
+x['rss']['channel'].keys()
+x['rss']['channel']['item'].keys()
+x['rss']['channel']['item'].__keys__
+x['rss']['channel']['item'].__len__
+i = x['rss']['channel']['item']
+dir(i)
+count(i)
+i.count()
+count(i)
+i.count
+i.count()
+count(i)
+dir(i)
+i
+i.keys()
+i.values()
+i.entries()
+help(list)
+i.getItem(0)
+i[0]
+i[2]
+i[3]
+i[4]
+i
+dir(i)
+for q in i:
+  print(i[0]['itunes:duration']
+for q in i:
+  print(i[q]['itunes:duration']
+for q in i:
+  print(i[q]['itunes:duration'])
+  print(i[q]))
+for q in i:
+  print(i[q])
+count(i)
+round(i)
+count(i)
+len(i)
+for q in i:
+  print(q)
+for q in i:
+  print(q['itunes:duration')
+for q in i:
+  print(q['itunes:duration'])
+dirx['rss']['channel']['item'][0]
+dirx['rss']['channel']['item']['0']
+x['rss']['channel']['item']['0']
+x['rss']['channel']['item'][0]
+x['rss']['channel']['item'][0]['enclosure']
+clear
+clear()
+import sys
+sys.clear()
+import os
+os.system('clear')
+x['rss']['channel']['item'][0]['enclosure']
+x['rss']['channel']['item'][0]['enclosure']->@url
+x['rss']['channel']['item'][0]['enclosure'][]
+x['rss']['channel']['item'][0]['enclosure']['@url']
+import argparse
+help(argparse.add_argument)
+help(argparse.ArgumentParser.add_argument)
+dir(argparse)
+import argparse
+dir(argparse)
+import datetime
+datetime.parse('foo')
+dir(datetime)
+dir(datetime.datetime('2023-01-01 0:11'))
+datetime.datetime('2023-01-01 0:11')
+help(datetime)
+dir(datetime)
+dir(datetime.datetime)
+dir(datetime.datetime.fromisoformat)
+help(datetime.datetime.fromisoformat)
+open(a.xml)
+open('a.xml')
+f = open('a.xml')
+import xmltodict
+x = xmltodict.parse(f)
+x = xmltodict(f)
+x = xmltodict.parse(f)
+x = xmltodict.parse(f.read())
+f.read()
+f = open('a.xml')
+f.read()
+x = xmltodict.parse(f.read())
+x = xmltodict.parse(open.('a.xml').read())
+f = open('a.xml').read()
+x = xmltodict.parse(f)
+x['rss']['channel']['item'][0]['pubDate']
+d = x['rss']['channel']['item'][0]['pubDate']
+import datetime
+datetime.fromisoformat(d)
+datetime.datetime.fromisoformat(d)
+datetime.datetime
+dir(datetime.datetime)
+datetime.datetime.fromtimestamp(d)
+datetime.datetime.fromisocalendar(d)
+d
+datetime.datetime(d)
+datetime.datetime.format('%s)
+datetime.datetime.format('%s')
+datetime.datetime.isoformat('%s')
+datetime.datetime.isoformat()
+dir(datetime.datetime)
+import date
+import time
+dir(time)
+dir(time.strptime)
+help(time.strptime)
+datetime.datetime.strptime(d)
+datetime.datetime.strptime(d,'%Y')
+datetime.datetime.strptime(d,RFC_DATE)
+datetime.datetime
+dir(datetime.datetime)
+dir(datetime)
+dir(datetime.time)
+time.time(d)
+time.time()
+dir(datetime)
+dir(datetime.date())
+dir(datetime.date(2004))
+dir(datetime.date(2004,34))
+dir(datetime.date(2004,3,4))
+d
+strptime(d,'%a')
+import datetime
+strptime(d,'%a')
+datetime.strptime(d,'%a')
+datetime.datetime.strptime(d,'%a')
+datetime.strptime(d,'%a')
+import datetime.datetime as datetime
+import datetime
+datetime.strptime(d,'%a')
+datetime.datetime.strptime(d,'%a')
+d
+type(d)
+d
+datetime.datetime.strptime(d,'%a, %d %b %Y %h:%m:%s %z')
+datetime.datetime.strptime(d,'%a, %d %b %Y %H:%m:%s %z')
+datetime.datetime.strptime(d,'%a, %d %b %Y %H:%M:%S %z')
+from datetime import datetime
+datetime.strptime(d,'%a, %d %b %Y %H:%M:%S %z')
+s = ''
+s = 'ABC'
+s.toLower()
+s.lower()
+str = 'dsdfsdf'
+s = 'fsdfsdf
+s = 'fsdfsdf'
+s
+s.pad('\t',23)
+dir(s)
+help(str.ljust)
+s.rjust(25, ' ')
+import qrcode
+qr = qrcode.make('foo')
+qr
+qr = qrcode.make('foo').tbumbnail((75,75))
+size = 75,75
+qr = qrcode.make('foo').thumbnail(size)
+qr.save('qr75.png')
+qr
+qr = qrcode.make('foo')
+qr.thumbnail(size)
+qr
+qr.save('qr75.png')
+help(readline)
+import readline
+help(readline)
+import io
+readline(io)
+help(io)
+io.readline(s)
+help(io.readline)
+dir(io)
+help
+help()
+modules
+readline
+:
+?
+import sys
+dir(sys)
+dir(sys.stdin)
+dir(sys.stdin.readline)
+import os.system('clear')
+import os
+os.system('clear')
+sys.stdin.readline()
+fb=sys.stdin.readline()
+fb
+while(True):
+  fb=sys.stdin.readline()
+  print(fb)
+while(True):
+  print(fb)
+fb=sys.stdin.readline()
+while(True):
+fb=sys.stdin.readline()
+while(True):
+  fb=sys.stdin.readline()
+  print(fb)
+while(True):
+  readline()
+  print(fb)
+while(True):
+  fb=sys.stdin.readline()
+  print(fb)
+  if(fb=='quit'):
+    pass
+while(True):
+  fb=sys.stdin.readline()
+  print(fb)
+  if(fb=='quit'):
+    break
+dir(sys.stdin.readline)
+import Tkinter as tk
+import tkinter as tk
+window = tk.tk()
+window = tk.Tk()
+hello = tk.Label(text='hi')
+windo
+bye = tk.Label(text='bye')
+bye.pack()
+window.mainloop()
+window.pack()
+window = tk.Tk()
+label = tk.Label(
+    text="Hello, Tkinter",
+    fg="white",
+    bg="black",
+    width=10,
+    height=10
+)
+label.pack()
+button = tk.Button(
+	text='derp',
+	width=100,
+	height=100
+)
+button.pack()
+import tree
+help()
+keywords
+symbols
+r'
+topics
+assertion
+topics
+help()
+ASSERTION
+help()
+topics
+METHODS
+CLASSES
+:q
+q:
+a = [ 1, 2, 3, 4, 5]
+a[2:4]
+open('idxx.txt')
+open('idx/idx1.txt').read().splitlines()
+type(open('idx/idx1.txt').read().splitlines())
+import json
+dir(json)
+json.loads(bncv1)
+json.loads(str(bncv1))
+json.load(str(bncv1))
+json.loads(str(bncv1))
+help(json.scanner)
+json.scanner(bncv1)
+json = new scanner(bncv1)
+json.scanner
+json.scanner(bncv1)
+json.make(bncv1)
+dir(json)
+json.json(bncv1)
+json.encoder(bncv1)
+json.JSONEncoder(bncv1)
+json.JSONEncoder(str(bncv1))
+json.loads(str(bncv1))
+str(bncv1)
+dict(str(bncv1))
+dict(bncv1)
+dict
+type(bncv1)
+zip(bncv1, p1v)
+dict(zip(bncv1, p1v))
+data = dict(zip(bncv1, p1v))
+json.loads(data)
+json.loads(''+data)
+json.loads(str(data))
+data.keys()
+help(json.loads)
+xmljson
+import xml
+import dict2json
+import dicttojson
+s = "{}"
+json.loads(s)
+s = "{}"
+help()
+pickle
+q
+import pickle
+dir(pickle)
+help(pickle.pack)
+help(pickle.loads)
+pickle.load(data)
+pickle.loads(data)
+import pickle
+pickle.loads(data)
+data
+import pickle
+pickle.loads(data)
+pickle.load(data)
+pickle.load(str(data)))
+pickle.load(str(data))
+pickle.loads(str(data))
+import pickle
+dir(pickle)
+hle(pickle)
+help(pickle)
+pickle.dumps(data)
+import json; json.loads(pickle.dumps(data))
+ls
+clear
+import csv
+help(csv)
+dir(csv)
+help(csv.writer)
+help(csv)
+with open('foo.csv', 'w') as f:
+  csvw = csv.writer(f)
+  for row in data:
+    csvw.writerow(row)
+with open('foo.csv', 'w') as f:
+  csvw = csv.writer(f)
+  for row in data:
+    csvw.writerow(data[row])
+dir(csv.writer)
+help(csv.writer)
+dir(dict)
+import json
+json.dumps(dict(zip(bncv1,p1v))
+)
+:q
+p1v
+for b in bcv1:
+  print(b)
+for b in bncv1:
+  print(b)
+for b in bncv1:
+  data[b]['t'] = 1
+data = {}
+  data[b]['t'] = 1
+for b in bncv1:
+  data[b]['t'] = 1
+  data[bncv[b]]['t'] = 1
+for b in bncv1:
+  data[bncv[b]]['t'] = 1
+ 
+for b in bncv1:
+  data[bncv1[b]]['t'] = 1
+  data[b]['t'] = 1
+for b in bncv1:
+  data[b]['t'] = 1
+type(dict)
+dir(dict)
+for b in bncv1:
+    data[b]['f'] = 'foo'
+    data[b]['h'] = 'hoo'
+help(Dict)
+help(dict)
+for b,v in bncv1:
+    data[b]['f'] = 'foo'
+    data[b]['h'] = 'hoo'
+help(dict)
+d = {}
+d['foo'] = 'foooo'
+import pprint
+dir(pprint)
+help(json.dump)
+import json
+help(json.dump)
+import json
+ls
+help(json.dump)
+help(json.dumps)
+dir(list)
+foo=None
+foo is None
+w,h=1000,1000
+        r = int(( (w + h) / 2 ) / 10)
+        r = ( (w + h) / 2 ) // 10
+r = ( (w + h) / 2 ) // 10
+( (w + h) / 2 ) // 10
+help()
+FUNCTIONS
+def
+lambda
+xy=0,1
+xy
++(1,0)
+xy+(1,0)
+xy=[1,0]
+type(xy)
+xy+[2,0]
+[2,0] >> [1,0]
+[2,0] & [1,0]
+[2,0] + [1,0]
+[2,0]
+[2,0]+=1
+[2,0]+=[1,0]
+[2,0] > [1,0]
+[2,0] >> [1,0]
+[2,0] < [1,0]
+[2,0] += [1,0]
+[2,0] += 1
+(2,0) += [1,0]
+dir(list)
+[2,0].__iadd__
+[2,0].__iadd__([1,0])
+[2,0].__add__([1,0])
+(2,0) += (1,0)
+(2,0) + (1,0)
+[2,0][:] = x+a,y+b for a,b in [2,0] 
+[2,0][:]= True for a in [2,0] 
+[2,0][:]= a.split() for a in [2,0] 
+b = [2,0]
+b[:]= a.split() for a in b 
+b[:]= (a.split()) for a in b 
+b[:]= [a.split() for a in b] 
+b[:]= [a,b for a in b] 
+b[:]= [a,x for a in b] 
+b[:]= [print(a,x) for a in b] 
+b[:]= [print(a,x) for a,x in b] 
+b[:]= [(a,x) for a,x in b] 
+b[:]= [(a,x) for a,x in [2,0]] 
+a = [1,0]
+b = [2,0]
+a+b
+a[1,3]
+a[1:]
+c=a+b
+c
+c=[1,3]
+c=a+b
+c[1,3]
+c[0:0:2]
+c
+c[0:*:2]
+c[0:::2]
+_
+import mp3
+import ffmpeg
+help()
+modules
+import markdown
+dir(markdown)
+import copy
+dir(co;y)
+dir(copy)
+help(copy)
+import json
+json.__doc__
+help(json)
+s = "json.__doc__"
+s
+s = "json.{__doc__:s}"
+s = f"json.{__doc__:s}"
+s = f'{json.__doc__:s}
+s = f'{json.__doc__:s}'
+s
+json.__doc__.
+json.__doc__.name
+str(json.__doc__)
+repr(json.__doc__)
+json
+dir(json)
+json.__path___
+json.__path__
+json.__all__
+json.__spec__
+json.__version__
+json.__package__
+json.__name__
+json.__loader__
+json.__all__
+json.__spec__
+q:q
+card = 5.4
+card = 5.3
+card
+card = 5,3
+card
+card.reverse()
+dir(tuple)
+list
+dir(list)
+card = list(card).reverse()
+tuple(card) = list(card).reverse()
+card = tuple(list(card).reverse())
+card
+card = 5,3
+card
+list(card).reverse()
+card
+card = list(Card)
+card
+card = list(card)
+card
+card = 5,3
+card = list(card).reverse()
+card
+card = 5,3
+card = list(card)
+card
+card.reversed()
+card.reverse()
+card
+tuple(card)
+card = card[1], card[0]
+card
+card = card[1], card[0]
+card
+card = card[1], card[0]; card
+s =[0,0,4,3]
+s[0:4:2] = [x+4 for x in s]
+s[0:4:2] = [x+4 for x in s[0:4:2]]
+s[1:4:2] = [y+3 for y in s[1:4:2]]
+s
+s =[0,0,0,0]
+s[1:4:2] = [y+3 for y in s[1:4:2]]
+s[0:4:2] = [x+4 for x in s[0:4:2]]
+s
+s =[0,0,5,5]
+s[0:4:2] = [x+4 for x in s[0:4:2]]
+s[1:4:2] = [y+3 for y in s[1:4:2]]
+s
+import node
+tree = Tree()
+sys.path
+import sys
+sys.path
+help
+help()
+modules
+import ast
+help(ast)
+help(ast.parse)
+help(ast.__new___)
+help(ast.__new__)
+ast(d)
+import ast
+help(ast.parse)
+help(ast.expr)
+import graphlib
+graph = {"D": {"B", "C"}, "C": {"A"}, "B": {"A"}}
+ts = TopologicalSorter(graph)
+dir(graphlib)
+ts
+ts = TopologicalSorter(graph)
+graphlib.TopologicalSorter
+ts = graphlib.TopologicalSorter(graph)
+graph = {"D": {"B", "C"}, "C": {"A"}, "B": {"A"}}
+ts = graphlib.TopologicalSorter(graph)
+tuple(ts.static_order())
+exit
+from  graphlib import *
+graph = {"D": {"B", "C"}, "C": {"A"}, "B": {"A"}}
+ts = graphlib.TopologicalSorter(graph)
+ts = TopologicalSorter(graph)
+tuple(ts.static_order())
+dir(graphlib)
+impor graphlib
+import graphlib
+dir(graphlib)
+graph
+dict2tree
+dicttree
+from collections import Counter
+cnt = Counter()
+s = 'this is just the first step'
+for c in ['a','e','i','o','u']:
+  cnt[c] +=1
+cnt
+for c in ['a','e','i','o','u','i','u']:
+  cnt[c] +=1
+cnt
+s = '最新研究显示，英国大学生就读期间作为交换生到国外的大学学习，这一人生经历对他们日后的人生道路选择有重大影响'
+s.split()
+s.split(sep=\B)
+s.split(sep=r'\B')
+s.split(sep=r'')
+s.split(sep='')
+s.split(sep='\B')
+import re
+re.split(s,r'\B')
+re.split(r'\B',str)
+re.split(r'\B',s)
+for c in re.split(r'\B',s):
+  cnt[c] +=1
+cnt
+cnt = Counter()
+for c in re.split(r'\B',s):
+  cnt[c] +=1
+cnt
+Point = namedTuple('Point', ['x','y']
+)
+from collections import namedTupl
+import collections
+Point = namedTuple('Point', ['x','y']
+)
+from collections import *
+Point = namedTuple('Point', ['x','y'])
+Point = namedtuple('Point', ['x','y'])
+p = Point(0,0)
+dir(tuple)
+p.x
+p.y
+from enum import Enum
+class Foo(Enum):
+  FRR = 1
+  GRR = 2
+  HRR = 3
+Foo
+print(Foo)
+Foo
+dir(Foo)
+Foo.FRR
+Foo.GRR
+Foo.HRR
+dir(Foo.HRR)
+dir(Foo.HRR).value
+dir(Foo.HRR.value)
+Foo.HRR
+Foo.HRR.vaue
+Foo.HRR.value
+ls
+cd ..
+ls
+s = 'foo'
+rjust(s,4)
+s.rjust(4)
+python3
+import dom
+import html
+ls0
+dir(html)
+help(html)
+import suntime
+dir(suntime)
+help(suntime.suntime)
+latlong = 90,35
+suntime.suntime(latlong)
+suntime(latlong)
+Sun(latlong)
+suntime.Sun(latlong)
+suntime.Sun(latlong[0],latlong[1])
+s = suntime.Sun(latlong[0],latlong[1])
+type(s)
+s.get_sunset_time()
+help(s.get_sunset_time)
+s.get_sunset_time()
+s = suntime.Sun(-34,111)
+s.get_sunset_time()
+d = s.get_sunset_time()
+dir(d)
+d = s.get_sunset_time().today
+d = s.get_sunset_time()
+d.today
+d.today()
+d.hour()
+d.hour
+d.minute
+s = suntime.Sun(34,-111)
+d = s.get_sunset_time()
+d
+d.utcoffset
+d.utcoffset()
+d = s.get_sunset_time().timedelta(-7)
+d = s.get_sunset_time().timedelta()
+d = s.get_sunset_time().timedelta
+d = s.get_sunset_time()
+d
+d.timetuple
+timetuple(d)
+d.timetuple()
+help(datetime.datetime)
+import datetime
+help(datetime.datetime)
+d.astimezone()
+s = suntime.Sun(34,-111)
+d = s.get_sunset_time(datetime.today())
+datetime.datetime
+datetime.datetime.today
+datetime.datetime.today()
+x = datetime.datetime.today()
+d = s.get_sunset_time(x)
+d
+d.astimezone()
+d.timetz()
+x = datetime.datetime.today()
+s
+reor(x)
+repr(x)
+d = s.get_sunset_time(x)
+latlong = 
+d = s.get_sunrise_time(x)
+d.astimezone()
+latlong=33.5647,-111.89314
+a,b=latlong
+a
+import suntime
+suntime.suntime.Sun
+suntime.suntime.Sun(a,b)
+s = suntime.suntime.Sun(a,b)
+d = s.get_sunrise_time()
+e
+d
+d.astimezone()
+d = s.get_sunset_time()
+d.astimezone()
+import datetime
+datetime
+datetime.datetime(2024,4,18)
+x= datetime.datetime(2024,4,18)
+d = s.get_sunset_time(x)
+d
+d.astimezone()
+from PIL import Image
+im = new Image('rgb', 1, 1)
+im = new Image('rgb', (1,1))
+im = Image('rgb', (1,1))
+white=255,255,255
+from PIL import Image
+im = Image.new('rgb', (1,1), white)
+white
+im = Image.new('RGB', (1,1), white)
+im.save('px.png')
+im = Image.new('RGB', (16,16), white)
+im.save('favicon.ico')
+import json
+json.load('skudb.js')
+with open('skudb.js') as f:
+  json.load(f)
+with open('skudb.js') as f:
+  json.loads(f)
+with open('skudb.js') as f:
+  json.loads(f.read())
+  json.load(f.read())
+help(json.load)
+help(json)
+end = '└──'
+chr(end)
+type(end)
+dir(str)
+ord(end)
+help(ord)
+ord(end[0])
+ord(end)
+char(end[0])
+chr(end[0])
+ord(end)
+ord(end[0])
+ord(end[1])
+ord(end[2])
+'└──'.split(')
+import re
+re.split(end,'')
+re.split(end,'\B')
+re.split(r'\B', end)
+b = '└──/
+b = '└──'
+a = '├──'
+help()
+tree
+help()
+modules
+remove = 'the,an'
+import re
+s = 'In the beginning God created the heaven and the earth.'
+for r in remove:
+  re.sub(s, r'\B{r:s}\B', '')
+  t = re.sub(s, r'\B{r:s}\B', '')
+for r in remove:
+  t = re.sub(s, '\B{r:s}\B', '')
+for r in remove:
+  t = re.sub(s, '\B{r:s}\B', '')
+  t = re.sub(s, f'\B{r:s}\B', '')
+for r in remove:
+  t = re.sub(s, f'\B{r:s}\B', '')
+r = split(',')
+r.split(',')
+remove.split(',')
+r =remove.split(',')
+r
+s.split(r'\B')
+s.split(r'\b')
+s.split('\b')
+s.split('\B')
+s.split(' ')
+s.split('\B')
+s.split('\b')
+s.split(r'\b')
+s.split(r'\s')
+t = re.split(r'\s')
+t = re.split('\B')
+t = re.split(s, r'\B')
+re.split(s, r'\B')
+s
+re.split(r'\B', s)
+re.split(r'\B\w', s)
+re.split(r'\B\w{1,}', s)
+re.split(r'\B\s', s)
+re.split(r'\s\B', s)
+re.split(r'\B', s)
+re.split(r'\b', s)
+re.split(r'', s)
+re.split(r'\b', s)
+t = re.split(r'\b', s)
+r
+t
+remove = 'in,the,and,on,an'
+r =remove.split(',')9
+r
+dir(list)
+import diff
+import listdiff
+t = re.split(r'\b', s)
+u = t.copy()
+u
+'S'.lower()
+u[:] = [x.lower() for z in u]
+u[:] = [x.lower() for x in u]
+u
+u[:] = [x.lower() for x in u]
+in in t
+'in' in t
+'the' in t
+u[:] = [ for x in u]
+u[:] = [x.lower() for x in u]
+'in' in u
+'God' in u
+'god' in u
+help(list)
+u[:] = [u.delete(i) for i in r for x in u]
+u[:] = [u.remove(i) for i in r for x in u]
+dir(list)
+  u.remove(i)
+help(list.remove)
+u[:] = [x.lower() for x in u]
+u
+filte
+filter
+help(filter)
+help(list)
+q
+e = [1,2,3]
+e.remove(1)
+e
+from PIL import Image
+dir(image)
+dir(PIL)
+import PIL
+dir(PIL)
+dir(Image)
+help(re.sub)
+import re
+help(re.sub)
+help()
+toml
+help()
+modules
+from zoneinfo import ZoneInfo
+from datetime import datetime, timedelta
+dt = datetime(2020, 10, 31, 12, tzinfo=ZoneInfo("America/Los_Angeles"))
+dt = datetime(2020, 4, 19, 0, tzinfo=ZoneInfo("America/Los_Angeles"))
+import suntime
+suntime.suntime.Sun(dt)
+st
+st.get_sunrise_time()
+st.get_sunrise_time(dt)
+dt
+st.get_sunrise_
+suntime.get_sunrise_Time
+suntime.get_sunrise_Time()
+dir(suntime)
+dir(suntime.suntime)
+dir(suntime)
+dir(suntime.suntime)
+help(suntime)
+help(suntime.suntime)
+s.get_sunrise_time(dt)
+from datetime import datetime, timedelta, date
+from zoneinfo import ZoneInfo
+from suntime import suntime as st
+latlng=33.5647,-111.89314
+lat, lng = latlng
+today = date.today()
+st.Sun(lat,lng)
+s = st.Sun(lat,lng)
+s.get_local_sunrise_time(today)
+s.get_local_sunset_time(today)
+r
+s
+s-r
+(s-r)[seconds
+(s-r)['seconds']
+daylen = s-r
+daylen['seconds']
+daylen
+daylen.seconds
+(s-r).seconds
+(s-r).seconds % 3600
+(s-r).seconds // 3600
+((s-r).seconds % 3600) // 60
+daylen = (s-r) # timedelta
+inseconds = daylen.seconds
+inhours = inseconds // 3600
+plusminutes = (inseconds % 3600) // 60
+plusminutes
+inseconds
+inseconds - 13 * 60
+inseconds - 13 * 3600
+600 // 60
+help(suntime.suntime.sun)
+help(suntime.suntime)
+import suntime
+help(suntime.suntime.sun)
+help(suntime.suntime.Sun)
+ls
+import audio
+import xhtml2pdf
+help(xhtml2pdf)
+help(xhtml2pdf.parser)
+xhtml2pdf.open('a.html')
+dir(xhtml2pdf)
+fn = 'a.html'
+xhtml2pdf(fn)
+dir(xhtml2pdf)
+dir(xhtml2pdf.__doc__)
+xhtml2pdf = new xhtml2pdf(fn)
+xhtml2pdf
+dir(xhtml2pdf)
+help(xhtml2pdf)
+import xhtml2pdf.parser
+dir(xhtml2pdf.parser)
+help(xhtml2pdf.parser)
+xhtml2pdf.parser.XHTML2PDF(fn)
+help(xhtml2pdf.parser)
+s = '<html></html>'
+xhtml2pdf.parser.pisaParser(s)
+help(xhtml2pdf.parser)
+exit
+import xml
+dir(xml)
+help(xml)
+help(xml.parsers)
+help(xml.parser)
+import xml.parsers
+help(xml.parsers)
+dir(xml.parsers)
+help(xml.parsers)
+help(xml.parsers.expat)
+import xml.parsers.expat
+help(xml.parsers.expat)
+import xml.parsers.expat
+import xml.parsers
+import xml
+help()
+quit
+150*3/8
+150*3/8*2
+300*3/8
+25/300
+300/25
+300*3/4
+from PIL import ImageDraw
+help(ImageDraw)
+help(ImageDraw.line)
+dir(ImageDraw)
+dir(ImageDraw.Draw)
+dir(ImageDraw)
+dir(ImageDraw.ImageDraw)
+dir(ImageDraw.ImageDraw.line)
+help(ImageDraw.ImageDraw.line)
+help(ImageDraw.ImageDraw)
+for i in range(0,100,10):
+  print(i)
+for i in range(0,150,25):
+  print(i)
+help(ImageDraw.polygcon)
+help(ImageDraw.polygon)
+help(ImageDraw.ImageDraw.polygon)
+import ImageDraw
+from PIL import ImageDraw
+help(ImageDraw.ImageDraw.polygon)
+i = 0xff
+h = 0xff
+int(h, 16)
+h = '0xff'
+int(h, 16)
+[255,12,3]
+help(any)
+r = [255,12,3]
+r
+any(r)
+[x >= 0 and x <= 255 for x in r]
+any([x >= 0 and x <= 255 for x in r])
+any([x >= 0 and x <= 255 for x in [277,444,23]])
+all([x >= 0 and x <= 255 for x in [277,444,23]])
+import Color
+import color
+help()
+color
+help(class)
+help()
+class
+q:
+class Color:
+help()
+def
+defq
+0xff
+0xfg
+0xffggff
+hex(0xffgg00)
+help
+help()
+modules
+python3
+import tomllib
+dir(tomllib)
+help(tomllib)
+ls
+help(tomllib)
+import mutagen9
+dir(mutagen0
+dir(mutagen)
+help(mutagen)
+exit
+import xml
+help(xml)
+help(xml.etree)
+import xml.etree)
+import xml.etree
+help(xml.etree)
+import curses
+help(curses)
+from PIL import ImageDraw as id
+help(id)
+help(id.polygon)
+help(ImageDraw..polygon)
+help(ImageDraw.polygon)
+from PIL import ImageDraw
+dir(id)
+dir(id.ImageDraw)
+dir(id.ImageDraw.polygon)
+help(id.ImageDraw.polygon)
+history
+history()
+help
+help()
+history
+help()
+keywords
+[244,12,5]
+f = _
+f
+[hex(h) for h in f]
+foo
+'foo'
+'''foo'''
+a = 'ff00cc'
+import re
+r = r'([A-Fa-f0-9]{2})'
+re.split(r,a)
+b = re.split(r,a)
+[if(x=None) del(x) for x in b]
+[if(x=None):del(x) for x in b]
+[del(x) for x in b]
+[x for x in b]
+[x is not None for x in b]
+[x=='' for x in b]
+help(lambda)
+help()
+opics
+help()
+topics
+q
+help()
+keywords
+lambda
+del
+help()
+topics
+BASICMETHODS
+LISTS
+LISTLITERALS
+SPECIALMETHODS
+:q
+[del [] for x in b]
+[del x for x in b]
+[b.remove(x) for x in b]
+f = [244,12,5]
+a = 'ff00cc'
+b = re.split(r,a)
+[[] for x in b]
+[b.remove(x) for x in b if x =='']
+f = [244,12,5]
+a = 'ff00cc'
+b = re.split(r,a)
+[x for x in b if x =='']r
+[x for x in b if x !='']
+c = [x for x in b if x !='']
+c = [int(x,16) for x in b if x !='']
+c
+c = [int(x,16) for x in b if x !='']
+c
+c = [int(x,16) for x in b if x !='']
+a = 'ff00cc'
+r = r'([A-Fa-f0-9]{2})'
+b = re.split(r,a)
+c = [int(x,16) for x in b if x !='']
+a
+r
+b
+c
+c = [int(x,16) for x in b if x is not None]
+c = [int(x,16) for x in b if x is not '']
+c = [int(x,16) for x in b if x!= '']
+c = [int(x,16) for x in b if x != '']
+c
+d = tuple(c)
+d
+import webcolors
+a = '#ffcc00'
+webcolors.hex_to_rgb(a)
+help(webcolors)
+def lum(rgb: tuple):
+    a = 0.2126
+    b = 0.7152
+    c = 1 - a - b
+    print(a,b,c
+def lum(rgb: tuple):
+    a = 0.2126
+    b = 0.7152
+    c = 1 - a - b
+    print(a,b,c)
+(223,34,2)
+lum(_)
+(223,34,2)
+lum(_)
+def lum(rgb: tuple):
+    i = 0.2126
+    j = 0.7152
+    k = 0.0722
+    r,g,b = rgb
+    return r*i+g*j+b*k
+def lum(rgb: tuple):
+    i = 0.2126
+    j = 0.7152
+    k = 0.0722
+    r,g,b = rgb
+def lum(rgb: tuple):
+    i = 0.2126
+    j = 0.7152
+    k = 0.0722
+    r,g,b = rgb
+    return r*i+g*j+b*k
+x = (223,34,2)
+lum(x)
+def lum(rgb: tuple):
+    i = 0.2126
+    j = 0.7152
+    k = 0.0722
+    print(sum(i,j,k))
+    r,g,b = rgb
+    print(r,g,b)
+    return (r*i + g*j + b*k)
+lum(x)
+def lum(rgb: tuple):
+    i = 0.2126
+    j = 0.7152
+    k = 0.0722
+    print(i+j+k)
+    r,g,b = rgb
+    print(r,g,b)
+    return (r*i + g*j + b*k)
+lum(x)
+lum(255,255,255)
+lum((255,255,255))
+lum((0,0,0))
+rgb = x
+rgb
+    r/255,g/255,b/255 = rgb
+r/255,g/255,b/255 = rgb
+r = rgb[0]/255
+def lum(rgb: tuple):
+    i = 0.2126
+    j = 0.7152
+    k = 0.0722
+    print(i+j+k)
+    rgb = [x/255 for x in rgb]
+    r,g,b = rgb
+    print(r,g,b)
+    return (r*i + g*j + b*k)
+lum((0,0,0))
+lum((255,255,255))
+rgb
+lum(rgb)
+assert(i+j+k)
+import assert
+    i = 0.2126
+    j = 0.7152
+    k = 0.0722
+    i = 0.2126
+    j = 0.7152
+i = 0.2126
+j = 0.7152
+k = 0.0722
+assert(i+j+k)
+assert(i+j+k == 1)
+assert(i+j+k === 1)
+assert(i+j+k == 2)
+assert(i+j+k == 1)
+xrgb = [x/255 for x in rgb]
+xrgb
+r,g,b = xrgb
+r + g + b
+from PIL import Image
+from PIL import Image as im
+help(im.rotate)
+help(im)
+help(im.Image)
+help(im.Image.rotate)
+from PIL import Image as im
+help(im.Image.rotate)
+from PIL import Image as im
+help(im.Image.flip)
+help(im.Image)
+import time
+time.now()
+help(time)
+time.localtime()
+help(time)
+time.ctime()
+help(time)
+help(time.time)
+time.time()
+int(time.time())
+ls
+exit
+import shutils
+import shutil
+help(shutil)
+import tempfile
+help(tempfile)
+with TemporaryDirectory() as tmpdir:
+  print(tmpdir)
+import tempfile.TemporaryDirectory
+import tempfile
+dir(tempfile)
+from tempfile import TemporaryDirectory
+with TemporaryDirectory() as tmpdir:
+  print(tmpdir)
+with TemporaryDirectory() as tmpdir:
+  print(tmpdir)
+import time
+with TemporaryDirectory() as tmpdir:
+  print(tmpdir)
+  time.sleep(10)
+with TemporaryDirectory() as tmpdir:
+  print(tmpdir)
+  time.sleep(10)
+pair
+dir(pair)
+import file
+import fileinfo
+import File
+help()
+modules
+import stat
+dir(stat)
+file(stat)
+help(stat)
+import stat
+help(stat)
+dir(stat)
+dir(stat.filemode)
+from PIL import Image,ImageDraw
+help(ImageDraw.Draw)
+help(ImageDraw)
+from PIL import Image
+help(Image)
+from PIL import Image
+from PIL import Image,ImageDraw
+help(Image.alpha_composite)
+from PIL import Image,ImageDraw
+help(Image.mask)
+dir(Image)
+help(Image.merge)
+help(Image.blend)
+help(Image.mask)
+from PIL import Image,ImageDraw
+help(Image.composite)
+from PIL import Image,ImageDraw
+help(Image.composite)
+a = [3, 4, 6, 8]
+a/8
+a[0]/8
+a[0]/8 * 2.54
+Math.round(a[0]/8 * 2.54,2)
+Math.round
+import math
+math.round
+dir(math)
+help(math.trunc)
+help(math.modf)
+import decimal
+help(decimal)
+help(decimal.rounded)
+help(decimal
+)
+from decimal import rounded
+from decimal import round
+help(decimal
+)
+import decimal
+decimal()
+decimal.Decimal()
+decimal.Rounded()
+help(decimal.Rounded())
+decimal.Rounded(math.pi)
+decimal.Rounded(math.pi, 2)
+decimal.Rounded(math.pi)
+math.round
+import math
+dir(math)
+import decimal
+dir(decimal)
+help(decimal)
+s = 3.14 * 2.54
+s
+Decimal.from_float(s)
+import Decimal
+import decimal
+import decimal.Decimal.from_float(s)
+import decimal.Decimal.from_float('33.44')
+import decimal.Decimal.from_float(33.44)
+dir(decimal.Decimal)
+decimal.Decimal.from_float(33.44)
+decimal.Decimal.from_float(s)
+decimal.Decimal.from_float(s).round(@)
+decimal.Decimal.from_float(s).round(2)d
+decimal
+decimal.Decimal
+dir(decimal.Decimal)
+dir(decimal)
+dir(decimal.Rounded)
+help(decimal.Rounded)
+help(decimal.Rounded(3))
+decimal.Rounded(3)
+decimal.Rounded(3.3)
+decimal.Rounded(3,33)
+decimal.Rounded(3.3,33)
+decimal.Rounded(3.3,2)
+decimal.Rounded(s)
+s
+decimal
+help(decimal)
+decimal.Rounded(s, prec=2)
+dir(decimal.Rounded)
+dir(decimal.Rounded.args)
+help(decimal.Rounded.args)
+help(decimal.Rounded)
+s
+s.round(2)
+decimal.round
+Rounded.round(3)
+decimal.Rounded.round(3)
+Rounded(3)
+round
+round(3.4334,3)
+import pandas as pd
+clear
+import PyPDF2
+import PyPDF2 as pdf
+dir(pdf)
+help(pdf)
+pdf('sta.pdf')
+pdf.PdfFileReader('sta.pdf')
+f pdf.PdfFileReader('sta.pdf')
+f = pdf.PdfFileReader('sta.pdf')
+f
+help(f)
+f.getPageNumber()
+f.getPageNumber('page')
+f.getPageNumber(1)
+import PyPDF2 as pdf
+pdf
+help(pdf)
+f = pdf.PdfFileReader('sta.pdf').getText()
+fn = 'sta.pdf'
+f = pdf.PdfFileReader('sta.pdf').getText()
+f = pdf.PdfReader('sta.pdf').getText()
+with open('sta.pdf) as f:
+with open(fn) as f:
+  pdf.PdfFileReader(f)
+with open(fn) as f:
+help(pdf)
+f = pdf.PdfReader('sta.pdf')
+f.get_page(1)
+f.get_page(page_number=1)
+f._get_page(page_number=1)
+f._get_page()
+f._get_page(1)
+f._get_page(2)
+f._get_page(0)
+dir(f)
+f.getPage(0)
+f.getNumPages()
+f.getPage(0)
+f.getPage(0).getText()
+dir(f.getPage(0)).
+f.getPage(0).getContents()
+f.getPage(0)._extract_text
+f.getPage(0).extract_text
+f.getPage(0).save
+f.getPage(0).
+f.getText()
+f
+dir(f
+)
+pdf.reader
+pdf.PDFReader(fn)
+pdf.PdFReader(fn)
+pdf.PdfReader(fn)
+r = pdf.PdfReader(fn)
+r
+dir(r)
+p = r.getPage(0)
+p
+dir(p)
+p.extract_text
+p.extractText
+dir(p.extractText)
+dir(p.extractText) + ''
+type(p.extractText)
+type(p.extractText())
+p.extractText()
+p.extractText().split(/\n/)
+import re
+re.split(p.extractText())
+re.split
+help(re.split)
+re = r'\n'
+regex = r'\n'
+import re
+re.split(regex, p.extractText())
+r = pdf.PdfReader(
+fn)
+r
+t = r.getPage(0).extractText()
+t
+import re
+regex = r'\n'
+re.split(regex,t)
+r.getNumPages()
+exit
+import re
+s = '074030000026'
+a = re.split(r'\B', s)
+odds = [int(x) for x in a[0::2]]
+odds
+evens = [int(x) for x in a[1:10:2]]
+evens
+evens = [int(x) for x in a[1::2]]
+evens
+checkdigit = evens.pop()
+checkdigit
+evebs
+evens
+q
+s = '074030000026'
+a = re.split(r'\B', s)
+odds = [int(x)*3 for x in a[0::2]]
+import re
+s = '074030000026'
+a = re.split(r'\B', s)
+odds = [int(x)*3 for x in a[0::2]]
+evens = [int(x) for x in a[1::2]]
+odds
+clear()
+ls
+import os
+os.clear()
+import system
+import sys
+sys.clear()
+dir(sys)
+typeof b
+b = True
+!b
+Not(b)
+!b
+!!b
+sys.version
+sys
+dir(sys)
+sys.hexversion
+ex = sys.exit
+ex()
+n = 9999
+foo1:
+func foo1
+func foo1"
+func foo1:
+import pyttsx3
+import from pyttsx3
+import pyttsx3
+engine = pyttsx3
+engine = pyttsx3.init()
+engine.save_to_file('hi','hi.mp3')
+engine.runAndWait()
+import pyttsx3
+engine = pyttsx3.init()
+engine.say('hello')
+engine.runAndWait()
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("I will speak this text")
+import pyttsx3
+engine.say("1...2...3...")
+engine = pyttsx3.init()
+engine.say("1...2...3...")
+str = '1......2......3'
+engine.save_to_file(str)
+engine.save_to_file(str,'foo1.mp3')
+engine.runAndWait()
+import pyttsx3
+e = pyttsx3.init()
+e.save_to_file('hello','f.mp3')
+e.runAndWait()
+e.getProperty('voices)
+v =e.getProperty('voices')
+v
+v['french']
+v.french
+for a in v:
+  print(v)
+for a in v:
+  print(a)
+import pyttsx3
+e = pyttsx3.init()
+e.setProperty('voice','english-us')
+e.getProperty('voice')
+e.setProperty('voice','english')
+e.getProperty('voice')
+e.setProperty('voice','french')
+e.getProperty('voice')
+import io
+dir(io)
+with open('pg10.txt') as f:
+  print(f.read())
+with open('pg10.txt') as f:
+  s = f.read();
+  print(s);
+with open('pg10.txt') as f:
+  s = f.read();
+import re
+with open('pg10.txt') as f:
+  s = f.read();
+  regex = '*'
+  s.split(regex, s)
+  re.split(regex, s)
+dir(re.split)
+python3 re
+help re
+help(re)
+regex='*{,3}'
+s
+import re
+re.split(regex, s)
+regex='*'
+re.split(regex, s)
+re.split(r'regex, s)
+re.split(r'\*' s)
+re.split(r'\*', s)
+re.split(r'\*{,3}', s)
+re.split(r'\*\*\*', s)
+a = re.split(r'\*\*\*', s)
+len(a)
+a = re.split(r'\***', s)
+a = re.split(r'\*{3}', s)
+len(3)
+len(a)
+a[0]
+a[1]
+a[2]
+a[3]
+a[4]
+a[5]
+a[6]
+a[0]
+a[2]
+a[3]
+a = re.split('***', s)
+a = re.split("***", s)
+import re
+s = open('pg10.txt')
+s = open('pg10.txt').read()
+regex = r'*'
+re.match(regex, s)
+regex = r'*'
+regex = r'\*'
+re.match(regex, s)
+regex = r'\*{3}'
+re.match(regex, s)
+a = re.match(regex, s)
+len(a)
+s
+len(a)
+a = re.match(r'\*{3}', s)
+a
+a = re.split(r'\*{3}', s)
+a
+len(a)
+len[0]
+a[0]
+a[1]
+a[2]
+a[3]
+a[4]
+a = re.split(r'\*{3}', s)
+p1 = a[2]
+p2 = a[3]
+with open('p1.txt', 'w') as f:
+  f.write(p1)
+with open('p2.txt', 'w') as f:
+  f.write(p2)
+p1
+re.sub(r'\d{1,3}:\d{1,4},p1)
+re.sub(r'\d{1,3}:\d{1,4}',p1)
+re.sub(p1, r'(\d{1,3}:\d{1,4})','*\\1')
+re.sub(r'(\d{1,3}:\d{1,4})','*\\1', s)
+re.sub(r'(\d{1,3}:\d{1,4})','*\1', s)
+re.sub(r'(\d{1,3}:\d{1,4})','***1', s)
+re.sub(r'(\d{1,3}:\d{1,4})','***1', p1)
+re.sub(r'(\d{1,3}:\d{1,4})','*\\1', p1)
+b = re.sub(r'(\d{1,3}:\d{1,4})','*\\1', p1)
+c = re.split(r'\*', b)
+c
+len(c)
+c[0]
+c[1]
+c[2]
+c[3]
+c[4]
+c[5]
+d=c[1:]
+len(d)
+history
+import readline; print('\n'.join([str(readline.get_history_item(i+1)) for i in range(readline.get_current_history_length())]))
+help(re)
+import re
+help(re)
+s = '''
+2_Chronicles 36:23
+Thus saith Cyrus king of Persia, All the kingdoms of the earth hath the LORD God of heaven given me; and he hath charged me to build him an house in Jerusalem, which is in Judah. Who is there among you of all his people? The LORD his God be with him, and let him go up. Ezra
+Ezra 1:1
+'''
+s
+import re
+re.sub(re.escape(Ezra)+r'$\s{3,}','',s)
+rmv = 'Ezra'
+re.sub(re.escape(rmv)+r'$\s{3,}','',s)
+re.sub(re.escape(rmv)+r'$\n{3,}','',s)
+re.sub(re.escape(rmv)+r'$\n{2,}','',s)
+re.sub(re.escape(rmv)+r'\n{2,}','',s)
+foo = '''
+Canaanite in the house of the LORD of hosts.     Malachi
+Malachi 1:1
+The burden of the word of the LORD to Israel by Malachi.
+'''
+foo
+for rmv in removals_other:
+  re.sub(rf'\s{rmv}\n{2,}({rmv}\s1:1)\s',r'\n\n\\1', foo)
+removals_other
+  re.sub(rf'\s{rmv}\n{2,}({rmv} 1:1)\s',r'\n\n\\1', foo)
+for rmv in removals_other:
+re.sub(rf'\s{rmv}\n{2,}({rmv} 1:1)\s',r'\n\n\\1', foo)
+for rmv in removals_other:
+for rmv in removals_other:
+  re.sub(rf'{rmv}\n{2,}({rmv} 1:1)','\\1', foo)
+for rmv in removals_other:
+  re.sub(rf'{rmv}\n{2,}({rmv} 1:1)','*\\1', foo)
+rmv='Malachi'
+re.sub(rf'{rmv}\n{2,}({rmv} 1:1)','*\\1', foo)
+re.sub(rf'{rmv}\n{2,}{rmv} 1:1','*\\1', foo)
+re.sub(rf'{rmv}','*\\1', foo)
+re.sub(rf'({rmv})','*\\1', foo)
+re.sub(rf'({rmv})','', foo)
+re.sub(rf'({rmv})','*\\1', foo)
+re.sub(rf'{rmv}','\\1', foo)
+re.sub(rf'{rmv}\n{2,}({rmv}) 1:1','*\\1', foo)
+re.sub(rf'{rmv}\n{2,}({rmv}) 1:1','\\1', foo)
+re.sub(rf'{rmv}\n{2,}({rmv}) 1:1','\\3', foo)
+re.sub(rf'{rmv}\n{2,}({rmv}) 1:1','\\0', foo)
+re.sub(rf'{rmv}\n{2,}({rmv}) 1:1','\\2', foo)
+re.sub(rf'{rmv}\n{2,}({rmv}) 1:1','\\1', foo)
+re.sub(rf'{rmv}\n{2,}{rmv} 1:1',f'{rmv}', foo)
+re.sub(rf'{rmv}\n{2,}{rmv} 1:1',''', foo)
+re.sub(rf'{rmv}\n{2,}{rmv} 1:1','', foo)
+re.sub(rf'({rmv})','', foo)
+re.sub(rf'({rmv}\s1:1)','', foo)
+re.sub(rf'({rmv}\s1\:1)','', foo)
+re.sub(rf'{rmv}\n{2,}{rmv} 1\:1','', foo)
+re.sub(rf'{rmv}\n{2,}{rmv}\s1\:1','', foo)
+re.sub(rf'({rmv})','', foo)
+re.sub(rf'{rmv}','', foo)
+re.sub(rf'{rmv}','', foo,1)
+re.sub(rf'({rmv} 1:1)','', foo,1
+re.sub(rf'({rmv} 1\:1)','', foo,1)
+re.sub(rf'({rmv} 1\:1)',f'{rmv}', foo,1)
+re.sub(rf'({rmv})\n{2,}{rmv}\s1:1',f'{rmv}', foo,1)
+re.sub(rf'({rmv}\n{2,}{rmv}\s1:1)',f'{rmv}', foo,1)
+re.sub(rf'({rmv}\n{2,}{rmv}\s1\:1)',f'{rmv}', foo,1)
+re.sub(rf'({rmv}\n{2,}{rmv}\s1\:1)',f'{rmv}2', foo,1)
+re.sub(rf'({rmv}\n{2,}{rmv} 1:1\n)',f'{rmv}2', foo,1)
+re.sub(rf'({rmv}\n{2,}{rmv} 1:1\n)',f'{rmv}2', foo)
+re.sub(rf'({rmv}\n{2,}{rmv} 1:1\n)',f'--', foo)
+rf'{rmv}\n{2,}({rmv}\s1:1)\s
+rf'{rmv}\n{2,}({rmv}\s1:1)\s'
+rf'{rmv}\n{2,}({rmv} 1:1)\s'
+rf'{rmv}{2,}({rmv} 1:1)\s'
+rf'{rmv}\s{2,}({rmv} 1:1)\s'
+re.sub(rf'({rmv}\s{2,}{rmv} 1:1\n)',f'--', foo)
+re.sub(rf'({rmv}\s{2,}{rmv} 1:1\n)','', foo)
+re.sub(rf'{rmv}\s{2,}{rmv} 1:1\n','', foo)
+re.sub(rf'{rmv} 1:1\n','', foo)
+re.sub(rf'{rmv} 1:1','', foo)
+re.sub(rf'{rmv}\n{2,}{rmv} 1:1','', foo)
+re.sub(rf'{rmv}\n\n\n\n{rmv} 1:1','', foo)
+re.sub(rf'{rmv}\s+{rmv} 1:1','', foo)
+re.sub(rf'{rmv}\s+{rmv} 1:1',f'{rmv}1:1', foo)
+re.sub(rf'{rmv}\s+{rmv} 1:1',f'{rmv} 1:1', foo)
+import sys
+dir(sys)
+w
+re.sub('w_copy = re.sub(\d{1,3}:\d{1,4})
+re.sub(r'\d{1,3}:\d{1,4}','',w)
+re.sub(r'\n+.*\d{1,3}:\d{1,4}','',w)
+re.sub(r'\n+.*\d{1,3}:\d{1,4}','\n',w)
+re.sub(r'\n+.*\d{1,3}:\d{1,4}\n','\n',w)
+re.sub(r'\n+.*\d{1,3}:\d{1,4}\n','\n',w).split()
+re.sub(r'\n+.*\d{1,3}:\d{1,4}\n','\n',w).split('\n')
+foo=re.sub(r'\n+.*\d{1,3}:\d{1,4}\n','\n',w).split('\n')
+len(foo)
+foo[0]
+foo[1:]
+ls
+with open('pg10.txt') as f:
+  ## reads entire file
+  s = f.read();
+  ## splits at star delimiters
+with open('pg10.txt') as f:
+  s=f.read()
+  a=re.split(r'\*+',s)
+import re
+with open('pg10.txt') as f:
+  s=f.read()
+  a=re.split(r'\*+',s)
+a
+a[0]
+len(a)
+with open('pg10.txt') as f:
+  s=f.read()
+  delimiter = '***'
+  a = re.split(fr'{delimiter}', s)
+import re
+dir(re)
+ls
+a
+a[0]
+a[2]
+a[3]
+a
+with open('pg10.txt') as f:
+  s=f.read()
+  regex_chapter_verse = r'\d{1,3}:\d{1,4}'
+  pattern=re.compile(regex_chapter_verse)
+  pattern.match(c)
+  pattern.match(s)
+rcv = r'\d{1,3}:\d{1,4}'
+pattern = re.compile(rcv)
+pattern.match(s)
+pattern
+help(re)
+re.match(s)
+help(match)
+help(pattern,re.match)
+re.match(pattern,s)
+re.match(pattern,s).groups()
+s.findall(pcv)
+pcv
+rcv
+s.findall(rcv)
+re.findall(rcv)
+help(re.findall)
+re.findall(rcv,s)
+rcv
+a
+a[0]
+s
+a = s.split('***')
+a
+a[0]
+a[1]
+a[2]]
+a[2]
+a[3]
+p1 = a[2]
+p2 = a[3]
+rcv = r'\d{1,3}:\d{1,4}'
+cv1 = p1.findall(rcv, p1)
+cv2 = p2.findall(rcv, p2)
+rcv = r'\d{1,3}:\d{1,4}'
+cv1 = re.findall(rcv, p1)
+cv2 = re.findall(rcv, p2)
+cv1
+cv2
+help(sleep)
+import sys
+sleep in sys
+dir(sys)
+import readline; print('\n'.join([str(readline.get_history_item(i+1)) for i in range(readline.get_current_history_length())]))
