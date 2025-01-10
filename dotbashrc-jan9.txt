@@ -1,0 +1,546 @@
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+#shopt -s globstar
+
+# make less more friendly for non-text input files, see lesspipe(1)
+#[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+
+# set a fancy prompt (non-color, unless we know we "want" color)
+case "$TERM" in
+    xterm-color|*-256color) color_prompt=yes;;
+esac
+
+# uncomment for a colored prompt, if the terminal has the capability; turned
+# off by default to not distract the user: the focus in a terminal window
+# should be on the output of commands, not on the prompt
+#force_color_prompt=yes
+
+if [ -n "$force_color_prompt" ]; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+	# We have color support; assume it's compliant with Ecma-48
+	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+	# a case would tend to support setf rather than setaf.)
+	color_prompt=yes
+    else
+	color_prompt=
+    fi
+fi
+
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+
+# If this is an xterm set the title to user@host:dir
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    #alias grep='grep --color=auto'
+    #alias fgrep='fgrep --color=auto'
+    #alias egrep='egrep --color=auto'
+fi
+
+# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# some more ls aliases
+#alias ll='ls -l'
+#alias la='ls -A'
+#alias l='ls -CF'
+
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+
+
+clearbash() {
+    cat /dev/null > ~/.bash_history && history -c
+}
+
+onvpn() {
+  if [[ $(expressvpn status) != 'Not connected' ]] then
+    return 1
+  fi
+
+  return 0
+}
+
+
+updvpn() {
+    sudo apt update && sudo apt install --only-upgrade expressvpn
+}
+
+rddy() {
+  if [[ $(onvpn) ]]; then
+    echo 'already on?!'
+    return 1;
+  fi
+    expressvpn connect "Japan"
+}
+
+## rebrews alternative homebrew installs
+rebrew() {
+    eval "$(homebrew/bin/brew shellenv)"
+    brew update --force --quiet
+    chmod -R go-w "$(brew --prefix)/share/zsh"
+}
+
+kbdate() {
+
+  dt=$(date +"%Y-%m-%d %H:%M");
+
+  if [[ $1 && $2 ]]
+    then
+    dt=$(date --date="$1 $2" +"%Y-%m-%d %H:%M");
+  elif [[ $1 ]]
+  then
+    dt=$(date --date="$1" +"%Y-%m-%d 00:00");
+  fi
+
+  d1=$(date --date="$1" +"%Y-%m-01 00:00");
+  yy=$(date --date="$dt" +"%y");
+  mm=$(date --date="$dt" +"%m");
+  dd=$(date --date="$dt" +"%d");
+
+  t2=$(date --date="$dt" +"%s");
+  t1=$(date --date="$d1" +"%s");
+
+  h=$(((t2-t1)/3600));
+  hhh=$(printf %03d $h);
+
+  echo "KB$yy$mm$hhh";
+}
+
+## ppa prereq
+mk11(){
+    ## common tools (e.g., add-apt-repository)
+    sudo apt install -y software-properties-common
+}
+
+# basics
+mk31() {
+    sudo apt install -y tree nano zip unzip
+    sudo apt install -y poppler-utils rename
+#    sudo apt install python3-pip -y ## no longer a thing after Debian 12? (PEP 668)
+    sudo apt install -y python3-pil python3-tk python3-qrcode
+    sudo apt install -y python3-scipy python3-plotly 
+    sudo apt install -y python3-notebook python3-pandas
+    sudo apt install -y python3-selenium
+    sudo apt install -y python3-venv
+    sudo apt install -y python3-pygments
+    sudo apt install -y pipenv
+    sudo apt install -y python3-xmltodict
+    sudo apt install -y sqlite3
+}
+
+## node
+mk33() {
+
+    ## node 21.x
+    ## using command from nodesource
+    ## https://github.com/nodesource/distributions
+    curl -fsSL https://deb.nodesource.com/setup_18.x | sudo bash
+    upd
+    sudo apt install -y nodejs ts-node
+    upd
+}
+
+## databoss (many databases)
+mk34() {
+    echo 'databoss'
+}
+
+## mediapack
+mk35() {
+    sudo apt install ffmpeg -y
+}
+
+## devops
+mk51() {
+
+    # java 17
+    sudo apt install openjdk-17-jdk -y
+
+    ## node install
+    mk33
+
+    # ruby for building ghpages, homebrew etc.
+    sudo apt install ruby -y
+
+    ## includes 'dig' for domains
+    sudo apt install dnsutils -y
+}
+
+## homebrew + ruby
+mk52() {
+    sudo apt install -y ruby
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+}
+
+## rebrews alternative homebrew installs
+rebrew() {
+    eval "$(homebrew/bin/brew shellenv)"
+    brew update --force --quiet
+    chmod -R go-w "$(brew --prefix)/share/zsh"
+}
+
+## design
+mk81() {
+    ## freecad
+    sudo apt -y install freecad
+    sudo apt -y install dia
+    up
+}
+
+## php 8.2
+mk82() {
+    sudo apt install -y php8.2 php8.2-{xml,sqlite3,gd}
+    sudo apt install -y php8.2-{bz2,curl,mbstring,intl}
+    upd
+}
+
+## libreoffice
+mk88() {
+    mk11
+    upd
+    sudo add-apt-repository ppa:libreoffice/ppa
+    upd
+    sudo apt install -y libreoffice
+}
+
+## makerware
+mk89() {
+    bash 'makerspace'
+}
+
+## legacy
+mk95() {
+    # text-based web browser
+    sudo apt install -y lynx
+}
+
+### EXTRAS
+
+## apache-cordova
+mk91 () {
+    mk11
+    upd
+    sudo apt-add-repository ppa:cordova-ubuntu/ppa
+    upd
+    sudo apt install -y cordova-cli
+}
+
+## gh pages local
+mkghp () {
+
+#    upd
+
+    sudo apt install -y ruby-full build-essential zlib1g-dev
+
+    echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+    echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+    echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
+
+    bash
+
+    ## to get permissions to add gems
+    sudo gem install bundler jekyll
+
+    rm -rf my-awesome-site
+    jekyll new my-awesome-site
+    cd my-awesome-site
+    bundle exec jekyll serve
+}
+
+# dotnet
+mk93() {
+    wget https://packages.microsoft.com/config/debian/11/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+    sudo dpkg -i packages-microsoft-prod.deb
+    rm packages-microsoft-prod.deb
+    upd
+    sudo apt install -y dotnet-sdk-7.0
+
+    ## post-install test
+    ## $ mkdir vb
+    ## $ cd vb
+    ## $ dotnet new console -lang "VB"
+    ## $ dotnet run ## Hello World!
+
+    ## building executable
+    ## using solution found here:
+    ## https://stackoverflow.com/a/55374055
+    ## $ dotnet build -c Release -r debian.8-x64 --self-contained
+    ## $ dotnet build -c Release -r debian.11-x64 --self-contained
+}
+
+## rustlang
+mk94() {
+    ## rust
+    ## https://www.rust-lang.org/tools/install
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+}
+
+## dartlang
+mk95() {
+    upd
+    sudo apt-get install -y apt-transport-https
+    wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo gpg  --dearmor -o /usr/share/keyrings/dart.gpg
+    echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main' | sudo tee /etc/apt/sources.list.d/dart_stable.list
+    upd
+    sudo apt-get install -y dart
+}
+
+## qt??
+mk96() {
+    upd
+    sudo apt-get install build-essential libgl1-mesa-dev
+}
+
+
+pyvm() {
+    python3 -m venv env-name
+    source env-name/bin/activate
+}
+
+ghp() {
+    ## launches github pages env
+    bundle exec jekyll serve
+}
+
+pyggy() {
+    ### optional? outfile="${1%.*}""
+    pygmentize -f html -O full -o "$1.html" $1
+}
+
+treesize() {
+    ## shows size, sorts by size desc
+    tree -h --du --sort size $1
+}
+
+dtreesize() {
+    ## shows directory size, sorts by size desc
+    tree --du -dh --sort size $1
+}
+
+
+abby() {
+    ## dff alphabet
+    php -S localhost:8888
+}
+
+eddy() {
+    ## dff alphabet
+    php -S localhost:8889
+}
+
+izzy() {
+    ## dff alphabet
+    php -S localhost:8895
+}
+
+ozzy() {
+    ## dff alphabet
+    php -S localhost:8891
+}
+
+umma() {
+    ## dff alphabet
+    php -S localhost:8899
+}
+
+phpdocs() {
+    cd ~/doc/phpdocs
+    php -S localhost:8899
+}
+
+# creates new unsigned Chrome extension zip file
+pasta() {
+  echo "making pasta..."
+  zip pasta.zip -r src -x *.git* > pasta.log
+  cat pasta.log
+  echo "done."
+}
+
+moo() {
+    cnt=$(ls | grep foo | grep .mp4 | wc -l)
+    nxt=$((cnt+1))
+
+    tag=$(date +'%s')
+    outfile="foo${nxt}-${tag}.mp4"
+
+    if [[ -z $1 ]]; then
+        echo "need URL please";
+    else
+        foo="yt-dlp -o $outfile $1"
+        echo $foo
+        $foo
+#        touch $outfile # test
+    fi
+}
+
+
+
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
+
+## updates apt installs
+upd() {
+#    rddy
+#    clearbash
+    sudo apt update
+    sudo apt upgrade -y
+    sudo apt autoremove -y
+    sudo apt-get clean
+}
+
+
+woo ()
+{
+    cnt=$(ls | grep woo | grep .m4a | wc -l);
+    nxt=$((cnt+1));
+    tag=$(date +'%s');
+    outfile="woo${nxt}-${tag}.m4a";
+    if [[ -z $1 ]]; then
+        echo "need URL please";
+    else
+        woo="yt-dlp -f m4a -o $outfile $1";
+        echo $woo;
+        $woo;
+    fi
+
+    cloudshell dl $outfile
+}
+
+
+ffseconds() {
+
+## ffseconds.sh
+## job      : returns mpeg file duration in seconds
+## deps     : ffmpeg
+## git      : https://github.com/tobysnotes/ffseconds
+## lic      : MIT
+##
+##
+
+## checks for infile
+if [[ -z $1 ]]; then
+    echo 'file missing'
+    echo
+    echo 'try this:'
+    echo 'ffseconds foo.mp3'
+    exit
+fi
+
+### using solution from stack overflow
+### https://stackoverflow.com/a/6239379
+## redirect to stdout
+a=$(ffmpeg -i $1 2>&1);
+
+## remove duration prefix
+b=${a#*Duration: };
+
+## remove duration suffix, timestamp remains
+## HH:MM:SS.CC
+c=${b%%,*};
+
+## remove centiseconds from timestamp
+d=${c%.*};
+
+## replace double-dots (colons) with spaces
+e=${d//:/ };
+
+## put the spaced-delimited numbers into an array
+arr=("$e");
+
+i=0;
+seconds=0;
+
+## for each element add to total number of seconds
+for s in $arr; do
+    seconds=$((seconds + s* (60**(2-i)) ));
+    i=$((i+1));
+done;
+
+## output seconds
+echo $seconds;
+
+}
+
+
+
+#rebrew() {
+#    eval "$(~/homebrew/bin/brew shellenv)"
+#    #brew update --force --quiet
+#    chmod -R go-w "$(brew --prefix)/share/zsh"
+#}
+
+#rebrew
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/derp/gcp/google-cloud-sdk/path.bash.inc' ]; then . '/home/derp/gcp/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/derp/gcp/google-cloud-sdk/completion.bash.inc' ]; then . '/home/derp/gcp/google-cloud-sdk/completion.bash.inc'; fi
